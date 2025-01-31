@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
     {
         "step": "user_assignee",
@@ -7,4 +8,15 @@
         "assigned_to": "NegreTos",
         "status": "В процессе"
     }
+=======
+[
+    {
+        "step": "user_assignee",
+        "chat_id": -4586204723,
+        "name": "ХуйХуйПИЗДААА",
+        "description": "Жопа",
+        "assigned_to": "NegreTos",
+        "status": "В процессе"
+    }
+>>>>>>> ef5a72a (Сохранение изменений в main.py)
 ]
