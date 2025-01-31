@@ -389,7 +389,7 @@ from aiogram.dispatcher.router import Router
 logging.basicConfig(level=logging.INFO)
 
 # Токен бота
-API_TOKEN = "TOKEN"
+API_TOKEN = "7407522137:AAGVZukdFOeSon6Gs37oZhKyZSVDxUlnhZY"
 
 # Создаём бот и диспетчер
 bot = Bot(token=API_TOKEN)
@@ -509,7 +509,7 @@ async def is_admin(chat_id, user_id):
 @router.message(Command(commands=["start"]))
 async def start_handler(message: types.Message):
     if message.chat.type in ["group", "supergroup"]:
-        await message.reply("👋 Привет! Я Family Quest бот. Готов работать в группе! 🎮", reply_markup=main_keyboard())
+        await message.reply("👋 Привет! Выбери действие!", reply_markup=main_keyboard())
     else:
         await message.reply("Этот бот работает только в группах. Добавьте меня в семейный чат!")
 
